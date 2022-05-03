@@ -11,11 +11,10 @@ Pearson Correlation Coefficient (PCC) is one of the most popular similarity meas
 Dataset [TrainingRating, TestingRating and Movies] which has data UsedId, MovieId, Rating and Movie name.
 
 
-***Step1
+**Step1
  First I load three of datasets, namely movie, train and test rating in spark environment.
  
- 
-***Step2
+**Step2
  Data preprocessing
  Build an ALS model based by tuning parameters (maxIter, rank, regParam) to obtain the 
 model with the smallest RMSE on the validation set. 
