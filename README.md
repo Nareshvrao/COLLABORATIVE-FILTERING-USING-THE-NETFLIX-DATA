@@ -2,10 +2,13 @@ COLLABORATIVE FILTERING USING THE NETFLIX DATA
 
 
 ***Motivation:
-To recommend recommendation with user based movie recommendation. Alternating Least 
-Squares (ALS) is collaborative filtering method for recommender systems. ALS is used with the 
-dataset [TrainingRating, TestingRating and Movies] which has data UsedId, MovieId, Rating and 
-Movie name.
+To recommend recommendation with user based movie recommendation.
+
+Alternating Least Squares (ALS) is collaborative filtering method for recommender systems.
+
+Pearson Correlation Coefficient (PCC) is one of the most popular similarity measures for Collaborative filtering recommender system, to evaluate how much two users are correlated. 
+
+Dataset [TrainingRating, TestingRating and Movies] which has data UsedId, MovieId, Rating and Movie name.
 
 
 ***Step1
